@@ -1,0 +1,1 @@
+- [Next.js migration patterns](nextjs-migration.md) — TEEE site migrated Vite→Next.js 15 App Router; key SSR hydration rules documented.

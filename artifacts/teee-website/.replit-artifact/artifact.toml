@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "TEEE — The Employee Experience Experiment"
+version = "1.0.0"
+id = "artifacts/teee-website"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19377
+
+[services.development]
+run = "pnpm --filter @workspace/teee-website run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/teee-website", "run", "build" ]
+publicDir = "artifacts/teee-website/out"
+serve = "static"
+
+[services.env]
+PORT = "19377"
+BASE_PATH = "/"

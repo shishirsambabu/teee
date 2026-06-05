@@ -1,0 +1,8 @@
+node_modules/
+.next/
+dist/
+attached_assets/
+*.zip
+replit.md
+*.tsbuildinfo
+.local/

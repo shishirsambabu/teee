@@ -1,0 +1,19 @@
+uploads = []
+
+[[generated]]
+id = "tpx2HVJvkT6ksv5z5erOy"
+uri = "file://artifacts/teee-website/public/hero-bg.png"
+type = "image"
+title = "Deep dark abstract texture"
+
+[[generated]]
+id = "GyUbmyNYNlll-vaxahGUm"
+uri = "file://artifacts/teee-website/public/founder-abstract.png"
+type = "image"
+title = "Abstract geometric portrait"
+
+[[outputs]]
+id = "LoWI5d7G8ZSYb8BP6FsHM"
+uri = "file://godaddy-redirect.zip"
+type = "unspecified"
+title = "godaddy-redirect.zip — index.html for your GoDaddy hosting"
